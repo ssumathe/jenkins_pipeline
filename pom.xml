@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.techprimers.testing</groupId>
-    <artifactId>jenkins-example</artifactId>
+    <groupId>com.example.jenkins-pipeline</groupId>
+    <artifactId>jenkins-pipeline</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -57,15 +57,15 @@
 
     <repositories>
         <repository>
-            <id>myMavenRepo.read</id>
-            <url>https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/</url>
+            <id>demo1-snapshot</id>
+            <url>https://nexus.acme.net/content/repositories/snapshot/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
-            <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/9Q8JoRpymi4UGK8HzbVq/</url>
+            <id>demo1-release</id>
+            <url>https://nexus.acme.net/content/repositories/releases/</url>
         </repository>
     </distributionManagement>
 
